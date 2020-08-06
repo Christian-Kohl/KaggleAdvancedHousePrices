@@ -1,0 +1,11 @@
+Condition1 and Condition2 should be the same set of one hot encoded features, this is due to them conveying the same information
+    
+    
+    Categorical:
+    MSZoning, Street, Alley, LotShape, LandContour, Utilities, LotConfig, LandSlope, Neighborhood, BldgType, HouseStyle, OverallQual, RoofStyle, RoofMatl, MasVnrType, Foundation, BsmtQual, BsmtCond, BsmtExposure, Heating, HeatingQC, CentralAir, Electrical
+    
+    Numerical:
+    LotFrontage, LotArea, OverallCond, OverallQual, YearBuilt, YearRemodAdd, MasVnrArea, ExterCond
+    
+    Special:
+    MsSubClass, (Condition1, and condition2), HouseStyle, (Exterior1st, and Exterior2nd), (BsmtFinType1, BsmtFinType2), (BsmtFinSF1, BsmtFinSF2, TotalBsmtSF), 
